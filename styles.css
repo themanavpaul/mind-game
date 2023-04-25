@@ -1,0 +1,78 @@
+body {
+  /* min-height: 100vh; */
+  /* overflow: hidden; */
+  /* max-height: 100vh; */
+    
+  /* background-position: center;
+  background-size: 1920px 1080px; */
+  background: linear-gradient(45deg, #ff7a7a, #e6ff8e, #527ebb, #a549b3);
+  background: url("simons.png") ;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  text-align: center;
+  /* background-color: #011F3F; */
+  
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  text-shadow: 6px 6px #ff0000;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block; 
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+  
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 8px 32px rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.btn:active {
+  box-shadow: inset 0px 0px 10px #000;
+  transform: translateY(4px);
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: rgb(255, 0, 0);
+}
+
+.green {
+  background-color: rgb(0, 255, 0);
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
